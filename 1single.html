@@ -13,7 +13,8 @@ layout: page
     });
     const json = await response.json();
     const label = json['data'][0]['confidences'][0]['label'];
-    results.innerHTML = `<br/><img src="${reader.result}" width="300"> <p>${label}</p>`
+    const prob = json['data'][0]['confidences'][0]['confidence'];
+    results.innerHTML = `<br/><img src="${reader.result}" width="300"> <p>${label} ${prob}</p>`
   }
   function read() {
     const reader = new FileReader();

@@ -2,8 +2,11 @@ remote_theme: daviddarnes/alembic@main
 plugins:
 - jekyll-remote-theme
 
-title: Jeremy Howard
-description: Some basic examples of client interfaces to a computer vision API
+theme_config:
+  appearance: "dark"
+
+title: Dog Vs Cat
+description: Some basic classification of pets
 
 author:
-  name: Jeremy Howard
+  name: Victor Ajayi

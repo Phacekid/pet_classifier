@@ -1,0 +1,15 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: info
+    entries:
+      - title: github
+        url: https://phacekid.github.io/tinypets/
+
+  - title: Projects
+    entries:
+      - title: Pet Classifier (Single Image)
+        url: 1single
+      - title: Pet Classifier (Multiple image)
+        url: 2multi
