@@ -1,9 +1,9 @@
-remote_theme: daviddarnes/alembic@main
+remote_theme: no-style-please
 plugins:
 - jekyll-remote-theme
 
 theme_config:
-  appearance: "dark"
+  appearance: "light"
 
 title: Dog Vs Cat
 description: Some basic classification of pets
