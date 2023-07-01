@@ -5,7 +5,7 @@ plugins:
 theme_config:
   appearance: "light"
 
-title: Dog Vs Cat
+title: Pet Classifier
 description: Some basic classification of pets
 
 author:
