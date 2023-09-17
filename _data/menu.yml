@@ -4,8 +4,8 @@
 entries:
   - title: info
     entries:
-      - title: github
-        url: https://github.com/Phacekid/tinypets
+      - title: Github
+        url: https://github.com/Phacekid/pet_classifier
 
   - title: Projects
     entries:
